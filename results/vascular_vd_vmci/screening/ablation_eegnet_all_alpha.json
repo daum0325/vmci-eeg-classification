@@ -1,0 +1,58 @@
+{
+  "tag": "eegnet_all_alpha",
+  "config": {
+    "n_folds": 3,
+    "n_repeats": 1,
+    "epochs": 20,
+    "win_sec": 4,
+    "win_stride_sec": 2,
+    "fs_target": 250,
+    "lr": 0.001,
+    "n_channels": 19,
+    "n_samples": 1000
+  },
+  "folds": [
+    {
+      "repeat": 0,
+      "fold": 0,
+      "window_auc": 0.47124658679607445,
+      "subj_acc": 0.5681818181818182,
+      "subj_macro_f1": 0.5569687334393216,
+      "n_train_windows": 11091,
+      "n_val_windows": 2100,
+      "n_test_windows": 6599,
+      "n_test_subjects": 44
+    },
+    {
+      "repeat": 0,
+      "fold": 1,
+      "window_auc": 0.6621744907104014,
+      "subj_acc": 0.5909090909090909,
+      "subj_macro_f1": 0.5875,
+      "n_train_windows": 10883,
+      "n_val_windows": 2310,
+      "n_test_windows": 6597,
+      "n_test_subjects": 44
+    },
+    {
+      "repeat": 0,
+      "fold": 2,
+      "window_auc": 0.5484241461685071,
+      "subj_acc": 0.5909090909090909,
+      "subj_macro_f1": 0.5285714285714286,
+      "n_train_windows": 11238,
+      "n_val_windows": 1958,
+      "n_test_windows": 6594,
+      "n_test_subjects": 44
+    }
+  ],
+  "summary_so_far": {
+    "window_auc_mean": 0.5606150745583276,
+    "window_auc_std": 0.07842121385838534,
+    "subj_acc_mean": 0.5833333333333334,
+    "subj_acc_std": 0.010713739108887075,
+    "subj_macro_f1_mean": 0.5576800540035833,
+    "subj_macro_f1_std": 0.02406274596912439
+  },
+  "saved_at": "2026-09-13T08:34:51.416752"
+}

@@ -1,0 +1,16 @@
+# raw / subject-level data — do not commit without checking data-use terms
+subject_list.csv
+SIVD_vascMCI_QEEG.csv
+QEEG_HC.xlsx
+*.set
+*.fdt
+
+# local environment / cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

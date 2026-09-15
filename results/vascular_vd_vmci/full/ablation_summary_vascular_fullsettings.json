@@ -1,0 +1,45 @@
+{
+  "results": {
+    "central_broadband": {
+      "eegnet": {
+        "window_auc_mean": 0.6871416898127158,
+        "window_auc_std": 0.08938692679111157,
+        "subj_acc_mean": 0.6846063660477454,
+        "subj_acc_std": 0.096904373406534,
+        "subj_macro_f1_mean": 0.6798046053112103,
+        "subj_macro_f1_std": 0.09881534899037772
+      },
+      "n_channels": 3,
+      "n_windows": 19790,
+      "qeeg": {
+        "window_auc_mean": 0.6382505293268369,
+        "window_auc_std": 0.08809435083057168,
+        "subj_acc_mean": 0.6234206896551724,
+        "subj_acc_std": 0.07057543182768386,
+        "subj_macro_f1_mean": 0.6187326475682905,
+        "subj_macro_f1_std": 0.07173089245699728
+      }
+    },
+    "all_theta": {
+      "eegnet": {
+        "window_auc_mean": 0.5898428213364344,
+        "window_auc_std": 0.06852982143814604,
+        "subj_acc_mean": 0.5673021599090565,
+        "subj_acc_std": 0.06942461644424391,
+        "subj_macro_f1_mean": 0.540949986688206,
+        "subj_macro_f1_std": 0.09375451403411487
+      },
+      "n_channels": 19,
+      "n_windows": 19790,
+      "qeeg": {
+        "window_auc_mean": 0.6402144522746134,
+        "window_auc_std": 0.062214390779351834,
+        "subj_acc_mean": 0.6728943286598459,
+        "subj_acc_std": 0.07304340188738294,
+        "subj_macro_f1_mean": 0.6700428753549563,
+        "subj_macro_f1_std": 0.07447703300981498
+      }
+    }
+  },
+  "saved_at": "2026-09-13T21:26:09.058327"
+}

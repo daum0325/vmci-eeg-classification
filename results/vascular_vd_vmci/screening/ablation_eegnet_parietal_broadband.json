@@ -1,0 +1,58 @@
+{
+  "tag": "eegnet_parietal_broadband",
+  "config": {
+    "n_folds": 3,
+    "n_repeats": 1,
+    "epochs": 20,
+    "win_sec": 4,
+    "win_stride_sec": 2,
+    "fs_target": 250,
+    "lr": 0.001,
+    "n_channels": 3,
+    "n_samples": 1000
+  },
+  "folds": [
+    {
+      "repeat": 0,
+      "fold": 0,
+      "window_auc": 0.5666639814740226,
+      "subj_acc": 0.5681818181818182,
+      "subj_macro_f1": 0.5679586563307493,
+      "n_train_windows": 11091,
+      "n_val_windows": 2100,
+      "n_test_windows": 6599,
+      "n_test_subjects": 44
+    },
+    {
+      "repeat": 0,
+      "fold": 1,
+      "window_auc": 0.5863117818943011,
+      "subj_acc": 0.5454545454545454,
+      "subj_macro_f1": 0.5416666666666667,
+      "n_train_windows": 10883,
+      "n_val_windows": 2310,
+      "n_test_windows": 6597,
+      "n_test_subjects": 44
+    },
+    {
+      "repeat": 0,
+      "fold": 2,
+      "window_auc": 0.5866449061937784,
+      "subj_acc": 0.5681818181818182,
+      "subj_macro_f1": 0.5625327053898482,
+      "n_train_windows": 11238,
+      "n_val_windows": 1958,
+      "n_test_windows": 6594,
+      "n_test_subjects": 44
+    }
+  ],
+  "summary_so_far": {
+    "window_auc_mean": 0.5798735565207007,
+    "window_auc_std": 0.009341570090553683,
+    "subj_acc_mean": 0.5606060606060607,
+    "subj_acc_std": 0.010713739108887127,
+    "subj_macro_f1_mean": 0.5573860094624213,
+    "subj_macro_f1_std": 0.011333829577893475
+  },
+  "saved_at": "2026-09-13T08:03:59.449357"
+}

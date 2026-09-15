@@ -1,0 +1,45 @@
+{
+  "model": "qEEG_LogisticRegression",
+  "tag": "qeeg_all_beta",
+  "folds": [
+    {
+      "repeat": 0,
+      "fold": 0,
+      "window_auc": 0.5120887372835294,
+      "subj_acc": 0.4772727272727273,
+      "subj_macro_f1": 0.47700258397932815,
+      "n_train_windows": 13191,
+      "n_test_windows": 6599,
+      "n_test_subjects": 44
+    },
+    {
+      "repeat": 0,
+      "fold": 1,
+      "window_auc": 0.5530894953803522,
+      "subj_acc": 0.5454545454545454,
+      "subj_macro_f1": 0.5454545454545454,
+      "n_train_windows": 13193,
+      "n_test_windows": 6597,
+      "n_test_subjects": 44
+    },
+    {
+      "repeat": 0,
+      "fold": 2,
+      "window_auc": 0.5801507042108546,
+      "subj_acc": 0.5681818181818182,
+      "subj_macro_f1": 0.5625327053898482,
+      "n_train_windows": 13196,
+      "n_test_windows": 6594,
+      "n_test_subjects": 44
+    }
+  ],
+  "summary_so_far": {
+    "window_auc_mean": 0.5484429789582453,
+    "window_auc_std": 0.027979759608804795,
+    "subj_acc_mean": 0.5303030303030303,
+    "subj_acc_std": 0.03862893570903625,
+    "subj_macro_f1_mean": 0.5283299449412406,
+    "subj_macro_f1_std": 0.03695753756389248
+  },
+  "saved_at": "2026-09-13T08:44:51.697439"
+}

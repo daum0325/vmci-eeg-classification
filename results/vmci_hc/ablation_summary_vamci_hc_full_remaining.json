@@ -1,0 +1,117 @@
+{
+  "results": {
+    "all_theta": {
+      "eegnet": {
+        "window_auc_mean": 0.7368473820820484,
+        "window_auc_std": 0.06602703045602784,
+        "subj_acc_mean": 0.6770461538461539,
+        "subj_acc_std": 0.09400635170262171,
+        "subj_macro_f1_mean": 0.6687224789598157,
+        "subj_macro_f1_std": 0.09973315776217707,
+        "subj_sensitivity_mean": 0.6362703962703963,
+        "subj_sensitivity_std": 0.17129843540186232,
+        "subj_specificity_mean": 0.7114285714285714,
+        "subj_specificity_std": 0.13011768613412228
+      },
+      "n_channels": 19,
+      "n_windows": 21164,
+      "qeeg": {
+        "window_auc_mean": 0.6010656064421366,
+        "window_auc_std": 0.06572711814414657,
+        "subj_acc_mean": 0.6007635327635328,
+        "subj_acc_std": 0.09180388276098553,
+        "subj_macro_f1_mean": 0.5765198421720885,
+        "subj_macro_f1_std": 0.09604385617479845,
+        "subj_sensitivity_mean": 0.4318181818181818,
+        "subj_sensitivity_std": 0.17944517112012703,
+        "subj_specificity_mean": 0.7457142857142859,
+        "subj_specificity_std": 0.12302314366634848
+      }
+    },
+    "all_broadband": {
+      "eegnet": {
+        "window_auc_mean": 0.7311011702861427,
+        "window_auc_std": 0.07456745808680813,
+        "subj_acc_mean": 0.6680524216524216,
+        "subj_acc_std": 0.0844815444145119,
+        "subj_macro_f1_mean": 0.6623724967271575,
+        "subj_macro_f1_std": 0.08647036524850168,
+        "subj_sensitivity_mean": 0.6247785547785548,
+        "subj_sensitivity_std": 0.13910570803938732,
+        "subj_specificity_mean": 0.7057142857142857,
+        "subj_specificity_std": 0.11485572138423873
+      },
+      "n_channels": 19,
+      "n_windows": 21164,
+      "qeeg": {
+        "window_auc_mean": 0.6835603956826466,
+        "window_auc_std": 0.05203256221533786,
+        "subj_acc_mean": 0.6485925925925926,
+        "subj_acc_std": 0.0796414070155386,
+        "subj_macro_f1_mean": 0.6403449269438203,
+        "subj_macro_f1_std": 0.08066412031394438,
+        "subj_sensitivity_mean": 0.5688111888111888,
+        "subj_sensitivity_std": 0.13919782182637924,
+        "subj_specificity_mean": 0.7200000000000002,
+        "subj_specificity_std": 0.10864659052475169
+      }
+    },
+    "occipital_broadband": {
+      "eegnet": {
+        "window_auc_mean": 0.7272377674395041,
+        "window_auc_std": 0.053007501968907,
+        "subj_acc_mean": 0.6615977207977208,
+        "subj_acc_std": 0.0648890639717361,
+        "subj_macro_f1_mean": 0.6474714348355988,
+        "subj_macro_f1_std": 0.06618411740473952,
+        "subj_sensitivity_mean": 0.5424242424242425,
+        "subj_sensitivity_std": 0.13966351757800524,
+        "subj_specificity_mean": 0.7657142857142857,
+        "subj_specificity_std": 0.13327890045360688
+      },
+      "n_channels": 2,
+      "n_windows": 21164,
+      "qeeg": {
+        "window_auc_mean": 0.6572371030003623,
+        "window_auc_std": 0.04606094333325007,
+        "subj_acc_mean": 0.6019988603988603,
+        "subj_acc_std": 0.04147778362403838,
+        "subj_macro_f1_mean": 0.5917070602443019,
+        "subj_macro_f1_std": 0.0453326631695845,
+        "subj_sensitivity_mean": 0.4972727272727273,
+        "subj_sensitivity_std": 0.10887524256060067,
+        "subj_specificity_mean": 0.6971428571428572,
+        "subj_specificity_std": 0.07079720967636495
+      }
+    },
+    "occipital_theta": {
+      "eegnet": {
+        "window_auc_mean": 0.6191592387163568,
+        "window_auc_std": 0.05959423249123372,
+        "subj_acc_mean": 0.6082096866096866,
+        "subj_acc_std": 0.06466414179183894,
+        "subj_macro_f1_mean": 0.568657050718118,
+        "subj_macro_f1_std": 0.07912151319430391,
+        "subj_sensitivity_mean": 0.37214452214452215,
+        "subj_sensitivity_std": 0.17736997894834797,
+        "subj_specificity_mean": 0.8114285714285714,
+        "subj_specificity_std": 0.10667516972911126
+      },
+      "n_channels": 2,
+      "n_windows": 21164,
+      "qeeg": {
+        "window_auc_mean": 0.5618362437061161,
+        "window_auc_std": 0.05920714088910363,
+        "subj_acc_mean": 0.5838404558404559,
+        "subj_acc_std": 0.07379303425204954,
+        "subj_macro_f1_mean": 0.566247241315292,
+        "subj_macro_f1_std": 0.0732696035873541,
+        "subj_sensitivity_mean": 0.4877622377622378,
+        "subj_sensitivity_std": 0.1693267433520274,
+        "subj_specificity_mean": 0.6628571428571429,
+        "subj_specificity_std": 0.15586493367983834
+      }
+    }
+  },
+  "saved_at": "2026-09-15T02:01:05.297061"
+}
