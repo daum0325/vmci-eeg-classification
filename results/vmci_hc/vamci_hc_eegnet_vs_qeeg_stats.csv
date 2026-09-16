@@ -1,0 +1,5 @@
+﻿조합,EEGNet AUC,qEEG AUC,Wilcoxon p,rank-biserial r,유의성(p<.05),n_pairs
+All ch. Broadband,0.731,0.684,0.0219,0.520,Yes,25
+All ch. Theta,0.737,0.601,0.0000,1.000,Yes,25
+Occipital Broadband,0.727,0.657,0.0000,0.951,Yes,25
+Occipital Theta,0.619,0.562,0.0000,1.000,Yes,25

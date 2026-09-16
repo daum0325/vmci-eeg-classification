@@ -1,0 +1,9 @@
+﻿모델,조합,AUC 평균,p (vs 0.5)
+eegnet,all_broadband,0.731,5.96e-08
+eegnet,all_theta,0.737,5.96e-08
+eegnet,occipital_broadband,0.727,5.96e-08
+eegnet,occipital_theta,0.619,1.19e-07
+qeeg,all_broadband,0.684,5.96e-08
+qeeg,all_theta,0.601,1.79e-07
+qeeg,occipital_broadband,0.657,5.96e-08
+qeeg,occipital_theta,0.562,1.40e-04

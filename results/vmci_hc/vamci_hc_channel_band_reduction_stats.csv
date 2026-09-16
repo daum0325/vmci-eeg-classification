@@ -1,0 +1,9 @@
+﻿검정,모델,조건,A AUC,B AUC,p,r,해석
+채널 축소 (19ch vs 후두부 2ch),eegnet,broadband,0.731,0.727,0.7712,+0.071,성능 차이 없음(축소해도 안전)
+채널 축소 (19ch vs 후두부 2ch),eegnet,theta,0.737,0.619,0.0000,+1.000,유의한 차이 있음
+채널 축소 (19ch vs 후두부 2ch),qeeg,broadband,0.684,0.657,0.0013,+0.705,유의한 차이 있음
+채널 축소 (19ch vs 후두부 2ch),qeeg,theta,0.601,0.562,0.0000,+0.883,유의한 차이 있음
+broadband vs theta,eegnet,all,0.731,0.737,0.6338,-0.114,차이 없음
+broadband vs theta,eegnet,occipital,0.727,0.619,0.0000,+1.000,유의한 차이 있음
+broadband vs theta,qeeg,all,0.684,0.601,0.0000,+1.000,유의한 차이 있음
+broadband vs theta,qeeg,occipital,0.657,0.562,0.0000,+0.994,유의한 차이 있음
