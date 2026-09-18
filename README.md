@@ -71,12 +71,9 @@ not a substitute for the Korean abstract actually submitted.)</sub>
 
 ## Preprocessing
 
-1. 0.5–40 Hz 대역통과 필터링
-2. 독립성분분석(ICA) 기반 잡음 제거
-3. 불량 채널 탐지·보간
-4. 평균 재참조(average re-reference)
-5. 채널별 z-score 정규화
-6. 4초 윈도우, 2초 stride로 분할
+1. 250Hz 리샘플링
+2. 채널별 z-score 정규화
+3. 4초 윈도우, 2초 stride로 분할
 
 ## Models
 
